@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topmenu">
+            <nav>
+                <img src="Myndir/SVG_Logo.svg" alt="logo" width="30px" height="30px">
+                <p>Stóla safnið</p>
+                <a href="index.html">Forsýða</a>
+                <a href="form.html">Form</a>
+                <a href="syningar.html">Sýningar</a>
+                <a href="https://en.wikipedia.org/wiki/Chair">Surprise me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="valmynd">
+            <input type="checkbox" id="toggle">
+            <label for="toggle">&#9776;</label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forsýða</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="syningar.html">Sýningar</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Chair">Surprise</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="text1">
+            <div class="texti1">
+                <div>
+                    <h2>Sýningar</h2>
+                    <p>
+                        Sýningar okkar eru fjölbreyttar og sniðaðar. Hægt er að finna allar týpur af stólum hér.
+                        Frá fjögra fóta kollum til allnýja nuddstóla allt er til hér.
+                        Farðu á sýningu með stólum sem þú tengir við mest eða farðu á allar sýningar til að finna hvað þér finnst best
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Um sýningar</h2>
+                    <p>
+                        Alls höfum við sex sýningar með mismunandi stólum sem hægt er að skoða.
+                        Viðar stólar sem allir kannast við. Fyrstu stólarnir og hversvegna þeir voru gerðir.
+                        Plast stólar sem hægt er að finna allstaðar. Hægindastólar sem að pabbi þinn mundi sofna á.
+                        Stál stólar fyrir vinnusvæði og einnig rúllustóla fyrir skrifborðsvinnu. Allt er hægt að finna á stólasafninu
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <div class="tab">
+                <input id="tab-1" name="tab" type="checkbox">
+                <label for="tab-1">Einfaldur miði</label>
+                <div class="content">
+                    <h4>Gefur aðgang að safni í einn dag.</h4>
+                    <p>Verð:</p>
+                    <ol>
+                        <li>Fullorðnir: 2.500kr</li>
+                        <li>Eldriborgarar: 1.500kr</li>
+                        <li>Námsmenn/Undir 18: Ókeypis</li>
+                    </ol>
+            </div>
+        </div>
+    
+            <div class="tab">
+                <input id="tab-2" name="tab" type="checkbox">
+                <label for="tab-2">Hljóðbókamiði</label>
+                <div class="content">
+                    <h4>Gefur aðgang að safni í einn dag. Gefur aðgang að heyrnartólum og hljóðbók með upplýsingar um safnið. Gefur eina ókeypis lyklakippu</h4>
+                    <p>Verð:</p>
+                    <ol>
+                        <li>Fullorðnir: 3.000kr</li>
+                        <li>Eldriborgarar: 1.500kr</li>
+                        <li>Námsmenn/Undir 18: 500kr</li>
+                    </ol>
+                </div>
+            </div>
+    
+    
+            <div class="tab">
+                <input id="tab-3" name="tab" type="checkbox">
+                <label for="tab-3">Hóp pantanir</label>
+                <div class="content">
+                    <h4>Gefur hóp aðgang að safni í einn dag. Gefur aðgang að stóla fræðingi sem fer með hóp í gegnum safnið. Gefur eina ókeypis lyklakippu fyrir hvern einstakling</h4>
+                    <p>Verð:</p>
+                    <ol>
+                        <li>Fullorðnir: 1.800kr</li>
+                        <li>Eldriborgarar: 1.000kr</li>
+                        <li>Námsmenn/Undir 18: Ókeypis</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="tablet">
+            <table>
+                <caption>Sýningar tímar</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Sýningar</th>
+                        <th scope="col">Tímasetning</th>
+                        <th scope="col">Salur</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Sýningar">Viðar stólar</td>
+                        <td data-label="Tímasetning">12:00</td>
+                        <td data-label="Salur">Salur 1</td>
+                    </tr>
+                
+                    <tr>
+                        <td scope="row" data-label="Sýningar">Fyrstu stólar</td>
+                        <td data-label="Tímasetning">12:00</td>
+                        <td data-label="Salur">Salur 2</td>
+                    </tr>
+                
+                    <tr>
+                        <td scope="row" data-label="Sýningar">Plast stólar</td>
+                        <td data-label="Tímasetning">14:00</td>
+                        <td data-label="Salur">Salur 1</td>
+                    </tr>
+                    
+                    <tr>
+                        <td scope="row" data-label="Sýningar">Hægindarstólar</td>
+                        <td data-label="Tímasetning">14:00</td>
+                        <td data-label="Salur">Salur 2</td>
+                    </tr>
+                
+                    <tr>
+                        <td scope="row" data-label="Sýningar">Stál stólar</td>
+                        <td data-label="Tímasetning">16:00</td>
+                        <td data-label="Salur">Salur 1</td>
+                    </tr>
+                
+                    <tr>
+                        <td scope="row" data-label="Sýningar">Rúllustólar</td>
+                        <td data-label="Tímasetning">16:00</td>
+                        <td data-label="Salur">Salur 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="box">
+            <a class="button" href="#popup1">Pantaðu núna</a>
+        </div>
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Afsakið truflunina</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Því miður erum við ekki að selja miða í bili vegna flutning okkar. Við vitum að það vilja allir sjá stóla og þess vegna erum við að færa safnið í stærri og betri byggingu. Við komum með fréttir um leið og við höfum komið öllu í gang.
+                </div>
+            </div>
+        </div>
+
+        <div class="cc">
+            <p id="Send me to copyright" class="I need it I promise, people love to steal from me"> 2023 &copy; Ísar Máni Gíslason </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <nav>
+                <div><p><strong>Contacts</strong></p></div>
+                <div><i class="fa-brands fa-x-twitter"></i><a href="#">Twitter</a></div>
+                <div><i class="fa-brands fa-facebook"></i><a href="#">Facebook</a></div>
+                <div><i class="fa-brands fa-instagram"></i><a href="#">Instagram</a></div>
+                <div><i class="fa-brands fa-linkedin"></i><a href="#">Linked in</a></div>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

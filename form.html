@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topmenu">
+            <nav>
+                <img src="Myndir/SVG_Logo.svg" alt="logo" width="30px" height="30px">
+                <p>Stóla safnið</p>
+                <a href="index.html">Forsýða</a>
+                <a href="form.html">Form</a>
+                <a href="syningar.html">Sýningar</a>
+                <a href="https://en.wikipedia.org/wiki/Chair">Surprise me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="valmynd">
+            <input type="checkbox" id="toggle">
+            <label for="toggle">&#9776;</label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forsýða</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="syningar.html">Sýningar</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Chair">Surprise</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="texti1">
+
+            <p>
+                Hér getur þú sent okkur skilaboð ef þú hefur fundið villu á síðunni okkar eða vilt spurja okkur um eitthvað nánar.
+                Við svörum eins fljótt og við getum. Þú þarft bara að gefa nafn, netfang, símanúmer og hvað þú vilt tala um.
+            </p>
+            <p>
+                Spurningar um opnunartíma og annað auðvelt er hægt að finna á samfélagsmiðlum okkar og síðu okkar um sýningarnar.
+                Ef þú vilt frekar hafa samband í gegnum símtal hrngdu í ###-#### og hafðu samband.
+            </p>
+        </div>
+
+        <div class="contact">
+            <form method="GET">
+                <fieldset id="register">
+                    <legend>Hafðu samband</legend>
+
+                    <label for="Nafn">Nafn:</label><br>
+                    <input type="text" id="Nafn" name="Nafn" required>
+
+                    <label for="email">Netfang:</label><br>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Sími:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{4}">
+
+                    <label for="athuga">Athugasemd:</label>
+                    <select id="athuga" name="athuga">
+                        <option value="villaasidu">Villa á síðu</option>
+                        <option value="spurning">Spurningar</option>
+                        <option value="annað">Annað...</option>
+                    </select>
+
+                    <div class="col-3">
+                        <section>
+                            <input type="radio" id="kyn" name="kk" value="kk">
+                            <label for="kk">Karlkyns</label>	
+                        </section>
+                        <section>
+                            <input type="radio" id="kvk" name="kyn" value="kvk">
+                            <label for="kvk">Kvennkyns</label>	
+                        </section>
+                        <section>
+                            <input type="radio" id="hk" name="kyn" value="hk">
+                            <label for="hk">Annað</label>	
+                        </section>
+                    </div>
+                    <textarea rows="10" 
+                        placeholder="Skrifaðu skilaboð hér og við munum svara eða laga við fyrsta tækifæri."></textarea>
+                    <input type="checkbox" id="mail" name="mail" valur="mail">
+                    <label for="frettabref">Fá sent svar í gegnum netfang</label>
+                    <input type="submit" value="Senda">
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="cc">
+            <p id="Send me to copyright" class="I need it I promise, people love to steal from me"> 2023 &copy; Ísar Máni Gíslason </p>
+        </div>
+
+    </main>
+
+    
+    <footer>
+        <div class="footer">
+            <nav>
+                <div><p><strong>Contacts</strong></p></div>
+                <div><i class="fa-brands fa-x-twitter"></i><a href="#">Twitter</a></div>
+                <div><i class="fa-brands fa-facebook"></i><a href="#">Facebook</a></div>
+                <div><i class="fa-brands fa-instagram"></i><a href="#">Instagram</a></div>
+                <div><i class="fa-brands fa-linkedin"></i><a href="#">Linked in</a></div>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
